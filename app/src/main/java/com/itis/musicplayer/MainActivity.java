@@ -275,11 +275,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Load audio files using {@link ContentResolver}
-     * <p>
-     * If this don't works for you, load the audio files to audioList Array your oun way
-     */
     private void loadAudio() {
         ContentResolver contentResolver = getContentResolver();
 
