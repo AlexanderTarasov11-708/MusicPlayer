@@ -15,7 +15,7 @@
         android:padding="10dp">
 
         <ImageButton
-            android:id="@+id/play_pause"
+            android:id="@+id/btn_play_pause"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:src="@android:drawable/ic_media_play"
@@ -27,7 +27,7 @@
             android:backgroundTint="@color/icons" />
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/tv_title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Title"
